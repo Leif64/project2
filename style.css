@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Delius Unicase', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.leftpagebtns {
+    display: flex;
+    position: relative;
+    left: 50px;
+    font-size: 26px;
+}
+
+
+.Brandbtn {
+    display: flex;
+    position: relative;
+    left: 125px;
+    font-size: 40px;
+}
+
+.rightpagebtns {
+    display: flex;
+    position: relative;
+    left: 225px;
+    font-size: 26px;
+}
+
+nav a {
+    display: inline-block;
+    color: #E1D9D1;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.4s;
+    user-select: none;
+}
+
+.header{
+    align-items: center;
+    background-color: #8D80AD;
+    display: flex;
+    min-height: 5vh;
+    padding: 0px 10px;
+    height: 85px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+
+.line_hr {
+    height: 5px;
+    width: 100%;
+    background-color: #5c5470;
+}
+
+div {
+    display: block;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+.sticky + .content {
+  padding-top: 102px;
+}
