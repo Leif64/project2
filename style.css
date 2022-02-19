@@ -82,3 +82,10 @@ div {
 .sticky + .content {
   padding-top: 102px;
 }
+
+.backgroundimg {
+    display: flex;
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
