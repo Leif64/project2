@@ -5,6 +5,7 @@ body, html {
 }
 
 * {
+    user-select: none;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -15,23 +16,25 @@ body, html {
 .leftpagebtns {
     display: flex;
     position: relative;
-    left: 50px;
     font-size: 26px;
+    padding-right: 75px;
+    gap: 15px;
 }
 
 
 .Brandbtn {
     display: flex;
     position: relative;
-    left: 125px;
     font-size: 40px;
+    text-decoration: none;
 }
 
 .rightpagebtns {
     display: flex;
     position: relative;
-    left: 225px;
     font-size: 26px;
+    padding-left: 75px;
+    gap: 15px;
 }
 
 nav a {
@@ -46,11 +49,11 @@ nav a {
 }
 
 .header{
-    align-items: center;
-    background-color: #8D80AD;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8d80ad;
     min-height: 5vh;
-    padding: 0px 10px;
     height: 85px;
 }
 
@@ -62,11 +65,7 @@ nav a:hover {
 .line_hr {
     height: 5px;
     width: 100%;
-    background-color: #5c5470;
-}
-
-div {
-    display: block;
+    background-color: #60547e;
 }
 
 .content {
@@ -84,8 +83,130 @@ div {
 }
 
 .backgroundimg {
+    display: block;
+    height: 700px;
+    width: 100%;
+    background-image: url(/8dbb588536397d8571c934332ff1dffc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Aboutpage {
+    height: 450px;
+    width: 100%;
+    background-color: #8d80ad;
+}
+
+.abouttext {
+    color: #E1D9D1;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.Aboutheader {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.Partners {
+    background-color: #8d80ad;
+    width: 100%;
+    height: 300px;
+}
+
+.Partnershead {
+    color: #E1D9D1;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Partnerpics {
     display: flex;
-    padding: 5px;
-    height: auto;
-    width: auto;
+    padding: 20px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.pimg {
+    border: #60547e 5px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 5px 0 black;
+}
+
+.start {
+    display: flex;
+    background-color: #8d80ad;
+    padding-top: 20px;
+    padding-left: 250px;
+    width: 100%;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nftpics {
+    border: #60547e 5px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 5px 0 black;
+    justify-content: center;
+    align-items: center;
+}
+
+.starttext {
+    padding: 25px;
+    margin: 10px;
+    color: #E1D9D1;
+    font-size: 1.6em;
+    align-items: center;
+}
+
+.roadmappage {
+    display: flex;
+    flex-direction: column;
+    background-color: #8d80ad;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmaphead {
+    color: #E1D9D1;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.teamhead {
+    color: #E1D9D1;
+    font-size: 40px;
+    text-align: center;
+}
+
+.teampage {
+    display: flex;
+    flex-direction: column;
+    background-color: #8d80ad;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamehead {
+    color: #E1D9D1;
+    font-size: 40px;
+    text-align: center;
+}
+
+.gamepage {
+    display: flex;
+    flex-direction: column;
+    background-color: #8d80ad;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
